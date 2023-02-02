@@ -75,7 +75,7 @@ public class GestorFTP {
 			try {
 				gestorFTP.conectar ();
 				System.out.println ("Conectado");
-				boolean subido = gestorFTP.subirFichero ("/Users/diego/Desktop/PROYECTOS/JAVA/tema4/src/resueltaCuatro/comon.jar");
+				boolean subido = gestorFTP.subirFichero ("comon.jar");
 				if (subido) {
 						System.out.println ( "Fichero subido correctamente");
 				} else {
