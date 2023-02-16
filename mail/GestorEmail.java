@@ -107,5 +107,3 @@ public class GestorEmail {
             }
         }
 }
-
-//password de app pdlzztqulzozpgwq
