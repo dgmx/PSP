@@ -93,10 +93,10 @@ public class GestorEmail {
                 sc.close();
                 GestorEmail gestorEmail = new GestorEmail();
                 gestorEmail.enviarMensajeTexto(emailEmisor,
-                        "diego.gm@gmail.com", "Aviso de email recibido",
+                        "Destinatario@gmail.com", "Aviso de email recibido",
                         "Esto es un email que contiene solo texto", emailEmisor, passwordEmisor);
                 gestorEmail.enviarMensajeConAdjunto(emailEmisor,
-                        "fernando.paniagua.formacion@gmail.com", "Aviso de email recibido con Adjunto",
+                        "Destinatario@gmail.com", "Aviso de email recibido con Adjunto",
                         "La informacion se envia en un documento adjunto", emailEmisor, passwordEmisor,
                         "/Users/diego/brew.info");
                 System.out.println("Correo enviado.");
